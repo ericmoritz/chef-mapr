@@ -22,7 +22,7 @@ $cluster = [
     "recipe[mapr::ConfiguredNode]",
   ],
   
-  # 2 Data Nodes
+  # 2 Data/Worker Nodes
   [
     "recipe[mapr::Node]",
     "recipe[mapr::ZookeeperNode]",
